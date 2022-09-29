@@ -1,0 +1,31 @@
+{
+  "name": "maze",
+  "version": "0.1.0",
+  "private": false,
+  "description": "Maze solver using BFS",
+  "keywords": [
+    "maze",
+    "bfs"
+  ],
+  "homepage": "https://github.com/andrewvasilchuk/maze#readme",
+  "bugs": {
+    "url": "https://github.com/andrewvasilchuk/maze/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/andrewvasilchuk/maze.git"
+  },
+  "license": "MIT",
+  "author": "Andrew Vasylchuk <andrew.d.vasilchuk@gmail.com>",
+  "main": "solver.js",
+  "scripts": {
+    "test": "ava",
+    "fmt": "prettier --write ."
+  },
+  "devDependencies": {
+    "ava": "^4.3.3",
+    "prettier": "^2.7.1",
+    "ts-node": "^10.9.1",
+    "typescript": "^4.8.4"
+  }
+}
